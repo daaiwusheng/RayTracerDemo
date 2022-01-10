@@ -1,0 +1,13 @@
+SAMPLE_COUNT 1000
+MAX_DEPTH 50
+Camera 278 278 -600 278 278 0 0 1 0 40 1.333333
+BACKGROUND 0.0 0.0 0.0 1
+Plane 0 0 555 555 555 YZ Lambertian ColorTexture 0.12 0.45 0.15 1
+Plane 0 0 555 555 0 YZ Lambertian ColorTexture 0.65 0.05 0.05 1
+Plane 0 0 555 555 0 XZ Lambertian ColorTexture 1 1 1 1
+Plane 0 0 555 555 555 XZ Lambertian ColorTexture 1 1 1 1
+Plane 0 0 555 555 555 XY Lambertian ColorTexture 1 1 1 1
+Plane 163 177 393 382 554 XZ DiffuseLight ColorTexture 1 1 1 1
+Cube 0 0 0 165 165 165 Lambertian ColorTexture 1 1 1 1 0 -18 0 130 0 65
+Cube 0 0 0 165 330 165 Metal ColorTexture 1 1 1 1 0.2 0 30 0 265 0 295
+Sphere 190 255 190 90 Dielectric 1.5

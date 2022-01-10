@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RaytraceRenderWindow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RaytraceRenderWindow">
+				<Option output="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/RaytraceRenderWindow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/RaytraceRenderWindow_autogen/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.2.0_1/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.4/include/GLFW"/>
+					<Add directory="/usr/local/include/glad"/>
+					<Add directory="/usr/local/include/KHR"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/opt/qt@5/./mkspecs/macx-clang"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtGui.framework"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 RaytraceRenderWindow"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RaytraceRenderWindow/fast">
+				<Option output="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/RaytraceRenderWindow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/RaytraceRenderWindow_autogen/include"/>
+					<Add directory="/usr/local/Cellar/glew/2.2.0_1/include/GL"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.4/include/GLFW"/>
+					<Add directory="/usr/local/include/glad"/>
+					<Add directory="/usr/local/include/KHR"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework/Headers"/>
+					<Add directory="/usr/local/opt/qt@5/./mkspecs/macx-clang"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtWidgets.framework"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtWidgets.framework/Headers"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtGui.framework"/>
+					<Add directory="/usr/local/opt/qt@5/lib/QtGui.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 RaytraceRenderWindow/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RaytraceRenderWindow_autogen">
+				<Option working_dir="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 RaytraceRenderWindow_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/ArcBall.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/ArcBall.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/ArcBallWidget.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/ArcBallWidget.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/BoundingBox.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/BoundingBox.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Cartesian3.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Cartesian3.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Homogeneous4.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Homogeneous4.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Matrix4.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Matrix4.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/MemoryTools.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/MemoryTools.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Quaternion.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Quaternion.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RGBAImage.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RGBAImage.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RGBAValue.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RGBAValue.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Randomizer.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RaytraceRenderWidget.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RaytraceRenderWidget.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/BVHTree.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/BVHTree.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Camera.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Camera.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/CollisionResult.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/CollisionResult.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/ColorTexture.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/ColorTexture.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Cube.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Cube.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/DiffuseLight.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/DiffuseLight.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Lights.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Lights.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Material.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Material.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Mesh.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Mesh.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/OBN.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/OBN.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/PDF.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/PDF.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Plane.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Plane.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Ray.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Ray.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Raytracer.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Raytracer.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Scene.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Scene.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Serialization.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Serialization.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Sphere.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Sphere.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/TexturePool.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/TexturePool.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Triangle.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/Triangle.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/TriangleMesh.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Raytracer/TriangleMesh.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderController.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderController.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderParameters.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderWidget.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderWidget.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderWindow.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/RenderWindow.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/Color.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/Color.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/MathUtils.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/RendererThread.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/RendererThread.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/Texture2D.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Renderer/Texture2D.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/TexturedObject.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/TexturedObject.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Timer.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Transform.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/Transform.h">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/cmake-build-debug/RaytraceRenderWindow_autogen/mocs_compilation.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/main.cpp">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/src/glad.c">
+			<Option target="RaytraceRenderWindow"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Widgets/Qt5Widgets_QMacStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacHeifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/RaytraceRenderWindow/../../../../../../../../../../usr/local/opt/qt@5/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\opt\qt@5\lib\cmake\Qt5Gui\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

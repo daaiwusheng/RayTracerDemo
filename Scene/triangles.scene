@@ -1,0 +1,7 @@
+SAMPLE_COUNT 1
+MAX_DEPTH 1
+Camera 0 -5 3 0 0 0 0 1 0 90 1.333333
+BACKGROUND 0.8 0.8 0.6 1
+Triangle -1.5 -1.5 0 1.5 -1.5 0 1.5 1.5 0 1 1 0 0.5 0.5 0 1 0.5 0 0 0 0 0 0 0 Lambertian Texture2D ../RaytraceRenderWindow/textures/earth.ppm
+Triangle -1.5 -1.5 0 -1.5 1.5 0 1.5 1.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 Lambertian ColorTexture 1 0 0 1
+TriangleMesh ../RaytraceRenderWindow/objects/cube_flat.obj 0 0 0.01 0 0 0 Lambertian Texture2D ../RaytraceRenderWindow/textures/MoonMap_small.ppm

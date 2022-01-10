@@ -1,0 +1,13 @@
+SAMPLE_COUNT 1000
+MAX_DEPTH 50
+Camera 18 4 6 0 2 0 0 1 0 20 1.333333
+BACKGROUND 0.03 0.03 0.03 1
+Sphere 0 -1000 0 1000 Lambertian ColorTexture 0.1 0.2 0.3 1
+Sphere 0 2 0 2 Lambertian Texture2D ../RaytraceRenderWindow/textures/earth.ppm
+Sphere 8 1 1 1 Metal ColorTexture 0.9 0.5 0.7 1 0.3
+Cube 0 0 0 2 2 2 Metal ColorTexture 1 1 0.7 1 0.2 0 45 0 6 0 4
+Sphere 8 3 4 1 Dielectric 1.5
+Plane 2 1 5 3 -2 XY DiffuseLight ColorTexture 1 1 1 1
+Plane 2 1 8 5 8 XZ DiffuseLight ColorTexture 1 1 1 1
+
+
